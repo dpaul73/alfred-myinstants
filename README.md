@@ -8,9 +8,9 @@ An [Alfred](https://www.alfredapp.com) workflow to search [Myinstants](http://ww
 - The extension updates via [alfred-workflow](https://github.com/deanishe/alfred-workflow)
 
 # Help
-
 - `i {{query}}` - search for instants with given query and play them
     - Example: to search for sounds containing "mlg", run `i mlg`, choose a sound, then hit enter to play it.
+    - You can play custom instants by uploading them to [myinstants.com](myinstants.com).
 - `ibest` - get best of all time instants and play them
 - `itrending` - get trending instants and play them
 - `irecent` - get recent instants and play them
