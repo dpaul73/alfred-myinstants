@@ -56,7 +56,7 @@
 	<key>createdby</key>
 	<string>Phillip Lanclos</string>
 	<key>description</key>
-	<string>Searches myinstants.com and plays sounds</string>
+	<string>Searches myinstants.com</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -81,11 +81,11 @@
 				<key>queuemode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
-				<string>Loading sounds</string>
+				<string>Loading instants</string>
 				<key>script</key>
 				<string>/usr/bin/python instants.py "search" {query}</string>
 				<key>subtext</key>
-				<string>Search myinstants.com for sounds</string>
+				<string>Search myinstants.com</string>
 				<key>title</key>
 				<string>Myinstants Search</string>
 				<key>type</key>
@@ -118,11 +118,11 @@
 				<key>queuemode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
-				<string>Loading sounds</string>
+				<string>Loading instants</string>
 				<key>script</key>
 				<string>/usr/bin/python instants.py "best" {query}</string>
 				<key>subtext</key>
-				<string>Get myinstants.com best of all time sounds</string>
+				<string>Get myinstants.com best of all time</string>
 				<key>title</key>
 				<string>Myinstants Best Of All Time</string>
 				<key>type</key>
@@ -174,11 +174,11 @@
 				<key>queuemode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
-				<string>Loading sounds</string>
+				<string>Loading instants</string>
 				<key>script</key>
 				<string>/usr/bin/python instants.py "trending" {query}</string>
 				<key>subtext</key>
-				<string>Get myinstants.com trending sounds</string>
+				<string>Get myinstants.com trending</string>
 				<key>title</key>
 				<string>Myinstants Trending</string>
 				<key>type</key>
@@ -211,11 +211,11 @@
 				<key>queuemode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
-				<string>Loading sounds</string>
+				<string>Loading instants</string>
 				<key>script</key>
 				<string>/usr/bin/python instants.py "recent" {query}</string>
 				<key>subtext</key>
-				<string>Get myinstants.com recent sounds</string>
+				<string>Get myinstants.com recent</string>
 				<key>title</key>
 				<string>Myinstants Recent</string>
 				<key>type</key>
@@ -337,7 +337,7 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Searches myinstants.com and plays sounds.
+	<string>Searches myinstants.com.
 
 Use “ihelp” for more help.
 

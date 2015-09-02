@@ -69,6 +69,6 @@ def main(wf):
 if __name__ == "__main__":
     wf = Workflow(
         update_settings={ "github_slug": "flipxfx/alfred-myinstants" },
-        help_url="https://github.com/flipxfx/alfred-myinstants"
+        help_url="https://github.com/flipxfx/alfred-myinstants#help"
     )
     sys.exit(wf.run(main))
