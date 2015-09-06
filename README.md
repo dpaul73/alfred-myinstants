@@ -10,7 +10,7 @@ An [Alfred](https://www.alfredapp.com) workflow to search [Myinstants](http://ww
 # Help
 - `i {{query}}` - search for instants with given query and play them
     - To search for sounds containing "mlg", run `i mlg`, choose a sound, then hit enter to play it.
-    - You can play custom instants by uploading them to [myinstants.com](http://www.myinstants.com/new).
+    - You can play custom instants by uploading them to [myinstants.com/new](http://www.myinstants.com/new).
 - `ibest` - get best of all time instants and play them
 - `itrending` - get trending instants and play them
 - `irecent` - get recent instants and play them
