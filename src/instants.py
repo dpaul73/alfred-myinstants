@@ -55,15 +55,29 @@ def main(wf):
                     Parser.instant = None
 
         # Get search webpage and parse
-        response = web.get(get_url)
-        if response.status_code == 200: Parser().feed(response.content)
+        try:
+            response = web.get(get_url)
+            if response.status_code == 200: Parser().feed(response.content)
+            else: instants = None
+        except:
+            instants = None
 
         return instants
 
-    # Populate workflow results and return
-    instants = wf.cached_data(cache_name, get_instants, max_age=max_age)
-    for instant in instants: wf.add_item(instant["name"], instant["url"], arg=instant["url"], valid=True)
-    if len(instants) == 0: wf.add_item("None found", "No sounds found for choice", valid=False)
+    # Get and cache instants
+    instants = wf.cached_data(cache_name, max_age=max_age)
+    if instants == None:
+        instants = get_instants()
+        if instants != None and len(instants) > 0:
+            wf.cached_data(cache_name, lambda: instants, max_age=max_age)
+
+    # Return results
+    if instants == None:
+        wf.add_item("Error getting instants", "Unable to retrieve instants", valid=False)
+    elif len(instants) == 0:
+        wf.add_item("None found", "No sounds found for choice", valid=False)
+    else:
+        for instant in instants: wf.add_item(instant["name"], instant["url"], arg=instant["url"], valid=True)
     wf.send_feedback()
 
 if __name__ == "__main__":
