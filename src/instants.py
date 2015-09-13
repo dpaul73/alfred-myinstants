@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 import sys
-from workflow import web, Workflow, ICON_INFO
+from workflow import web, Workflow, ICON_ERROR, ICON_WARNING
 import HTMLParser
 
 def main(wf):
@@ -15,7 +15,7 @@ def main(wf):
         query = wf.args[1]
         get_url = base_url + "/search/?name=" + query.replace(" ", "+")
         cache_name = "search:" + query
-        max_age = 30 * DAY
+        max_age = 7 * DAY
     elif type == "best":
         get_url = base_url
         cache_name = "best"
@@ -73,9 +73,9 @@ def main(wf):
 
     # Return results
     if instants == None:
-        wf.add_item("Error getting instants", "Unable to retrieve instants", valid=False)
+        wf.add_item("Error getting instants", "Unable to retrieve instants", valid=False, icon=ICON_ERROR)
     elif len(instants) == 0:
-        wf.add_item("None found", "No sounds found for choice", valid=False)
+        wf.add_item("None found", "No sounds found for choice", valid=False, icon=ICON_WARNING)
     else:
         for instant in instants: wf.add_item(instant["name"], instant["url"], arg=instant["url"], valid=True)
     wf.send_feedback()
