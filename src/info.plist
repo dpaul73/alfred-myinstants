@@ -18,6 +18,14 @@
 				<key>modifiersubtext</key>
 				<string></string>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>130CFFE9-CA38-4DDC-A551-57AB2A90E1DC</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Add instant to favorites</string>
+			</dict>
 		</array>
 		<key>3B296314-036E-4AD6-A90E-1373741DFA28</key>
 		<array>
@@ -28,6 +36,14 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>130CFFE9-CA38-4DDC-A551-57AB2A90E1DC</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Add instant to favorites</string>
 			</dict>
 		</array>
 		<key>3D2CAD17-2BA0-4A96-A112-30A9A6F8F51B</key>
@@ -40,6 +56,14 @@
 				<key>modifiersubtext</key>
 				<string></string>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>130CFFE9-CA38-4DDC-A551-57AB2A90E1DC</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Add instant to favorites</string>
+			</dict>
 		</array>
 		<key>6E388BEB-A066-4D74-9A99-F04AD7EA7A4C</key>
 		<array>
@@ -51,7 +75,36 @@
 				<key>modifiersubtext</key>
 				<string></string>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>130CFFE9-CA38-4DDC-A551-57AB2A90E1DC</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Add instant to favorites</string>
+			</dict>
 		</array>
+		<key>8823BDAE-5D7E-4F24-9831-FABFF368789A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CB2CECDC-0E19-41C2-8225-334820EDFA25</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>8F33BF85-9DA7-40AE-9CAB-BAA0D168C604</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Remove instant to favorites</string>
+			</dict>
+		</array>
+		<key>CB2CECDC-0E19-41C2-8225-334820EDFA25</key>
+		<array/>
 	</dict>
 	<key>createdby</key>
 	<string>Phillip Lanclos</string>
@@ -103,6 +156,44 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>/usr/bin/python instants.py "play" {query}</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CB2CECDC-0E19-41C2-8225-334820EDFA25</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>/usr/bin/python instants.py "favorite" {query}</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>130CFFE9-CA38-4DDC-A551-57AB2A90E1DC</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>escaping</key>
@@ -134,25 +225,6 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>0599B194-0C4F-44A0-B68B-ED975A02DD5E</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>curl -s {query} &gt; /tmp/alfred_myinstants.mp3 &amp;&amp; afplay /tmp/alfred_myinstants.mp3</string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>CB2CECDC-0E19-41C2-8225-334820EDFA25</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -227,6 +299,62 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>3D2CAD17-2BA0-4A96-A112-30A9A6F8F51B</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>/usr/bin/python instants.py "unfavorite" {query}</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>8F33BF85-9DA7-40AE-9CAB-BAA0D168C604</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>69</integer>
+				<key>keyword</key>
+				<string>ifavs</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>Loading instants</string>
+				<key>script</key>
+				<string>/usr/bin/python instants.py "favorites" {query}</string>
+				<key>subtext</key>
+				<string>Your Myinstants favorites (add favorites with cmd+enter)</string>
+				<key>title</key>
+				<string>Myinstants Favorites</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>8823BDAE-5D7E-4F24-9831-FABFF368789A</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -349,6 +477,11 @@ More info at http://flipxfx.com/blog/alfred-myinstants.</string>
 			<key>ypos</key>
 			<real>240</real>
 		</dict>
+		<key>130CFFE9-CA38-4DDC-A551-57AB2A90E1DC</key>
+		<dict>
+			<key>ypos</key>
+			<real>240</real>
+		</dict>
 		<key>3B296314-036E-4AD6-A90E-1373741DFA28</key>
 		<dict>
 			<key>ypos</key>
@@ -362,27 +495,37 @@ More info at http://flipxfx.com/blog/alfred-myinstants.</string>
 		<key>4CEB5C5D-B2EC-42E6-9024-E64136FC903C</key>
 		<dict>
 			<key>ypos</key>
-			<real>570</real>
+			<real>680</real>
 		</dict>
 		<key>60A019EE-A759-45C2-993B-5BB295B22C22</key>
 		<dict>
 			<key>ypos</key>
-			<real>790</real>
+			<real>900</real>
 		</dict>
 		<key>6E388BEB-A066-4D74-9A99-F04AD7EA7A4C</key>
 		<dict>
 			<key>ypos</key>
 			<real>130</real>
 		</dict>
+		<key>8823BDAE-5D7E-4F24-9831-FABFF368789A</key>
+		<dict>
+			<key>ypos</key>
+			<real>570</real>
+		</dict>
 		<key>8D2F793F-5FBC-4D82-9DB1-60708A7FA444</key>
 		<dict>
 			<key>ypos</key>
-			<real>680</real>
+			<real>790</real>
+		</dict>
+		<key>8F33BF85-9DA7-40AE-9CAB-BAA0D168C604</key>
+		<dict>
+			<key>ypos</key>
+			<real>570</real>
 		</dict>
 		<key>CB2CECDC-0E19-41C2-8225-334820EDFA25</key>
 		<dict>
 			<key>ypos</key>
-			<real>300</real>
+			<real>130</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>
