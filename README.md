@@ -15,8 +15,8 @@ An [Alfred](https://www.alfredapp.com) workflow to search [Myinstants](http://ww
 - `itrending` - get trending instants and play them
 - `irecent` - get recent instants and play them
 - `ifavs` - get list of stored favorites
-    - To add an instant to favorties, choose an instant from the above commands, then hit `cmd+enter`
-    - To remove an instant from favorties, choose an instant from `ifavs`, then hit `cmd-enter`
+    - To add an instant to favorties, choose an instant from the above commands, then hit `cmd+enter`.
+    - To remove an instant from favorties, choose an instant from `ifavs`, then hit `cmd-enter`.
 - `iclear` - clear the instants cache
     - If you run into any problems with the workflow, clearing the cache may help.
 - `iupdate` - update the workflow
