@@ -8,108 +8,89 @@
 	<string>Internet</string>
 	<key>connections</key>
 	<dict>
-		<key>0599B194-0C4F-44A0-B68B-ED975A02DD5E</key>
+		<key>61580772-FB64-4DB2-9799-323221002164</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CB2CECDC-0E19-41C2-8225-334820EDFA25</string>
+				<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>130CFFE9-CA38-4DDC-A551-57AB2A90E1DC</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string>Add instant to favorites</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
-		<key>3B296314-036E-4AD6-A90E-1373741DFA28</key>
+		<key>B06EFA00-BD47-48B9-BF13-A73052018A79</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CB2CECDC-0E19-41C2-8225-334820EDFA25</string>
+				<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>130CFFE9-CA38-4DDC-A551-57AB2A90E1DC</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string>Add instant to favorites</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
-		<key>3D2CAD17-2BA0-4A96-A112-30A9A6F8F51B</key>
+		<key>D02274EB-FEAA-4C63-916E-D63D5AE575A9</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CB2CECDC-0E19-41C2-8225-334820EDFA25</string>
+				<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>130CFFE9-CA38-4DDC-A551-57AB2A90E1DC</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string>Add instant to favorites</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
-		<key>6E388BEB-A066-4D74-9A99-F04AD7EA7A4C</key>
+		<key>E93B4746-738D-40DB-9897-4A5B7B43AFC7</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CB2CECDC-0E19-41C2-8225-334820EDFA25</string>
+				<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>130CFFE9-CA38-4DDC-A551-57AB2A90E1DC</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string>Add instant to favorites</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
-		<key>8823BDAE-5D7E-4F24-9831-FABFF368789A</key>
+		<key>EC4AD15F-8CBD-4EEB-A3B1-AB109FE18CC2</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>CB2CECDC-0E19-41C2-8225-334820EDFA25</string>
+				<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>8F33BF85-9DA7-40AE-9CAB-BAA0D168C604</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string>Remove instant to favorites</string>
+				<key>vitoclose</key>
+				<false/>
 			</dict>
 		</array>
-		<key>CB2CECDC-0E19-41C2-8225-334820EDFA25</key>
-		<array/>
+		<key>F7CD1F44-94C4-4A4A-AAB2-B01D82D056F9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Phillip Lanclos</string>
 	<key>description</key>
-	<string>Searches myinstants.com</string>
+	<string>Searches Myinstants.com and plays sounds</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -119,10 +100,12 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
-				<integer>69</integer>
+				<integer>127</integer>
 				<key>keyword</key>
 				<string>i</string>
 				<key>queuedelaycustom</key>
@@ -136,7 +119,11 @@
 				<key>runningsubtext</key>
 				<string>Loading instants</string>
 				<key>script</key>
-				<string>/usr/bin/python instants.py "search" {query}</string>
+				<string>/usr/local/bin/node main.js "search" "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
 				<string>Search myinstants.com</string>
 				<key>title</key>
@@ -149,55 +136,19 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>6E388BEB-A066-4D74-9A99-F04AD7EA7A4C</string>
+			<string>B06EFA00-BD47-48B9-BF13-A73052018A79</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
+				<key>alfredfiltersresults</key>
 				<false/>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>script</key>
-				<string>/usr/bin/python instants.py "play" {query}</string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>CB2CECDC-0E19-41C2-8225-334820EDFA25</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>script</key>
-				<string>/usr/bin/python instants.py "favorite" {query}</string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>130CFFE9-CA38-4DDC-A551-57AB2A90E1DC</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>escaping</key>
-				<integer>69</integer>
+				<integer>127</integer>
 				<key>keyword</key>
 				<string>ibest</string>
 				<key>queuedelaycustom</key>
@@ -211,11 +162,15 @@
 				<key>runningsubtext</key>
 				<string>Loading instants</string>
 				<key>script</key>
-				<string>/usr/bin/python instants.py "best" {query}</string>
+				<string>/usr/local/bin/node main.js "best"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
-				<string>Get myinstants.com best of all time</string>
+				<string>Best instants of all time</string>
 				<key>title</key>
-				<string>Myinstants Best Of All Time</string>
+				<string>Myinstants Best</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -224,17 +179,19 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>0599B194-0C4F-44A0-B68B-ED975A02DD5E</string>
+			<string>D02274EB-FEAA-4C63-916E-D63D5AE575A9</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>escaping</key>
-				<integer>69</integer>
+				<integer>127</integer>
 				<key>keyword</key>
 				<string>itrending</string>
 				<key>queuedelaycustom</key>
@@ -248,9 +205,13 @@
 				<key>runningsubtext</key>
 				<string>Loading instants</string>
 				<key>script</key>
-				<string>/usr/bin/python instants.py "trending" {query}</string>
+				<string>/usr/local/bin/node main.js "trending"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
-				<string>Get myinstants.com trending</string>
+				<string>Trending instants</string>
 				<key>title</key>
 				<string>Myinstants Trending</string>
 				<key>type</key>
@@ -261,19 +222,21 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>3B296314-036E-4AD6-A90E-1373741DFA28</string>
+			<string>F7CD1F44-94C4-4A4A-AAB2-B01D82D056F9</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>escaping</key>
-				<integer>69</integer>
+				<integer>127</integer>
 				<key>keyword</key>
-				<string>irecent</string>
+				<string>inew</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -285,11 +248,15 @@
 				<key>runningsubtext</key>
 				<string>Loading instants</string>
 				<key>script</key>
-				<string>/usr/bin/python instants.py "recent" {query}</string>
+				<string>/usr/local/bin/node main.js "new"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
-				<string>Get myinstants.com recent</string>
+				<string>New instants</string>
 				<key>title</key>
-				<string>Myinstants Recent</string>
+				<string>Myinstants New</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -298,36 +265,42 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>3D2CAD17-2BA0-4A96-A112-30A9A6F8F51B</string>
+			<string>E93B4746-738D-40DB-9897-4A5B7B43AFC7</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
 				<key>concurrently</key>
-				<false/>
+				<true/>
 				<key>escaping</key>
-				<integer>127</integer>
+				<integer>4</integer>
 				<key>script</key>
-				<string>/usr/bin/python instants.py "unfavorite" {query}</string>
+				<string>/usr/local/bin/node main.js "play" "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>8F33BF85-9DA7-40AE-9CAB-BAA0D168C604</string>
+			<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>escaping</key>
-				<integer>69</integer>
+				<integer>127</integer>
 				<key>keyword</key>
 				<string>ifavs</string>
 				<key>queuedelaycustom</key>
@@ -341,9 +314,13 @@
 				<key>runningsubtext</key>
 				<string>Loading instants</string>
 				<key>script</key>
-				<string>/usr/bin/python instants.py "favorites" {query}</string>
+				<string>/usr/local/bin/node main.js "favorites"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
-				<string>Your Myinstants favorites (add favorites with cmd+enter)</string>
+				<string>Favorite instants</string>
 				<key>title</key>
 				<string>Myinstants Favorites</string>
 				<key>type</key>
@@ -354,19 +331,21 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>8823BDAE-5D7E-4F24-9831-FABFF368789A</string>
+			<string>61580772-FB64-4DB2-9799-323221002164</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
 				<key>argumenttype</key>
-				<integer>2</integer>
+				<integer>0</integer>
 				<key>escaping</key>
-				<integer>69</integer>
+				<integer>127</integer>
 				<key>keyword</key>
-				<string>iclear</string>
+				<string>iboard</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -375,159 +354,130 @@
 				<integer>0</integer>
 				<key>queuemode</key>
 				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>Loading instants</string>
 				<key>script</key>
-				<string>/usr/bin/python instants.py "workflow:delcache"</string>
+				<string>/usr/local/bin/node main.js "board" "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
 				<key>subtext</key>
-				<string>Clear Myinstants workflow cache</string>
+				<string>Favorite instants from board given</string>
 				<key>title</key>
-				<string>Myinstants Clear</string>
+				<string>Myinstants Board</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>4CEB5C5D-B2EC-42E6-9024-E64136FC903C</string>
+			<string>EC4AD15F-8CBD-4EEB-A3B1-AB109FE18CC2</string>
 			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>escaping</key>
-				<integer>69</integer>
-				<key>keyword</key>
-				<string>iupdate</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>2</integer>
-				<key>script</key>
-				<string>/usr/bin/python instants.py "workflow:update"</string>
-				<key>subtext</key>
-				<string>Update Myinstants workflow</string>
-				<key>title</key>
-				<string>Myinstants Update</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>8D2F793F-5FBC-4D82-9DB1-60708A7FA444</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>escaping</key>
-				<integer>69</integer>
-				<key>keyword</key>
-				<string>ihelp</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>2</integer>
-				<key>script</key>
-				<string>/usr/bin/python instants.py "workflow:help"</string>
-				<key>subtext</key>
-				<string>Open Myinstants workflow help</string>
-				<key>title</key>
-				<string>Myinstants Help</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>60A019EE-A759-45C2-993B-5BB295B22C22</string>
-			<key>version</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>Searches myinstants.com.
+	<string># alfred-myinstants
 
-Use “ihelp” for more help.
+An [Alfred](https://www.alfredapp.com) workflow to search [Myinstants](http://www.myinstants.com) and play sounds.
 
-More info at http://flipxfx.com/blog/alfred-myinstants.</string>
+# Get it
+- Download the [latest release](https://github.com/flipxfx/alfred-myinstants/releases/latest)
+
+# Help
+- `i {{query}}` - search for instants with given query and play them
+    - To search for instants containing "mlg", run `i mlg`, choose an instant, then hit `enter` to play it.
+    - You can play custom instants by uploading them to [Myinstants.com/new](http://www.myinstants.com/new).
+- `ibest` - get best of all time instants and play them
+- `itrending` - get trending instants and play them
+- `inew` - get new instants and play them
+- `ifavs` - get list your favorites
+    - To add favorties, login to [Myinstants](http://www.myinstants.com) and add your favorite sounds.
+    - By default the favorites are pulled from my favorites soundboard, to get your own favorites you must set the workflow environment variable `favorites` to your username.
+- `iboard {{query}}` - get list user specified favorites
+    - Works the same as `ifavs` except you supply the username in the query so you can see favorites for deifferent boards.
+
+After you've used one of the above commands to get a list of instants you can do any of the following:
+- Enter: plays the selected instant
+- Shift: previews the selected instant page Quick Look (helpful play and sound mulitple times)
+- Command+C: copies the url to the selected instant page (helpful to add favorites)
+- Command+L: shows the selected instant name in large type (not helpful)</string>
 	<key>uidata</key>
 	<dict>
-		<key>0599B194-0C4F-44A0-B68B-ED975A02DD5E</key>
+		<key>61580772-FB64-4DB2-9799-323221002164</key>
 		<dict>
+			<key>note</key>
+			<string>search instants</string>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
-			<real>240</real>
+			<integer>620</integer>
 		</dict>
-		<key>130CFFE9-CA38-4DDC-A551-57AB2A90E1DC</key>
+		<key>B06EFA00-BD47-48B9-BF13-A73052018A79</key>
 		<dict>
+			<key>note</key>
+			<string>search instants</string>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
-			<real>240</real>
+			<real>20</real>
 		</dict>
-		<key>3B296314-036E-4AD6-A90E-1373741DFA28</key>
+		<key>CF927719-B545-4189-8635-2810D2F94BC2</key>
 		<dict>
+			<key>note</key>
+			<string>play instant</string>
+			<key>xpos</key>
+			<integer>550</integer>
 			<key>ypos</key>
-			<real>350</real>
+			<integer>470</integer>
 		</dict>
-		<key>3D2CAD17-2BA0-4A96-A112-30A9A6F8F51B</key>
+		<key>D02274EB-FEAA-4C63-916E-D63D5AE575A9</key>
 		<dict>
+			<key>note</key>
+			<string>search instants</string>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
-			<real>460</real>
+			<integer>170</integer>
 		</dict>
-		<key>4CEB5C5D-B2EC-42E6-9024-E64136FC903C</key>
+		<key>E93B4746-738D-40DB-9897-4A5B7B43AFC7</key>
 		<dict>
+			<key>note</key>
+			<string>search instants</string>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
-			<real>680</real>
+			<integer>470</integer>
 		</dict>
-		<key>60A019EE-A759-45C2-993B-5BB295B22C22</key>
+		<key>EC4AD15F-8CBD-4EEB-A3B1-AB109FE18CC2</key>
 		<dict>
+			<key>note</key>
+			<string>search instants</string>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
-			<real>900</real>
+			<integer>770</integer>
 		</dict>
-		<key>6E388BEB-A066-4D74-9A99-F04AD7EA7A4C</key>
+		<key>F7CD1F44-94C4-4A4A-AAB2-B01D82D056F9</key>
 		<dict>
+			<key>note</key>
+			<string>search instants</string>
+			<key>xpos</key>
+			<integer>300</integer>
 			<key>ypos</key>
-			<real>130</real>
-		</dict>
-		<key>8823BDAE-5D7E-4F24-9831-FABFF368789A</key>
-		<dict>
-			<key>ypos</key>
-			<real>570</real>
-		</dict>
-		<key>8D2F793F-5FBC-4D82-9DB1-60708A7FA444</key>
-		<dict>
-			<key>ypos</key>
-			<real>790</real>
-		</dict>
-		<key>8F33BF85-9DA7-40AE-9CAB-BAA0D168C604</key>
-		<dict>
-			<key>ypos</key>
-			<real>570</real>
-		</dict>
-		<key>CB2CECDC-0E19-41C2-8225-334820EDFA25</key>
-		<dict>
-			<key>ypos</key>
-			<real>130</real>
+			<integer>320</integer>
 		</dict>
 	</dict>
+	<key>variables</key>
+	<dict>
+		<key>favorites</key>
+		<string>flipxfx</string>
+	</dict>
+	<key>version</key>
+	<string>2.0.0</string>
 	<key>webaddress</key>
 	<string>flipxfx.com</string>
 </dict>
