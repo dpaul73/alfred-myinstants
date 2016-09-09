@@ -50,11 +50,10 @@ var BASE_URL = "https://www.myinstants.com";
             valid: true,
             quicklookurl: instantUrl,
             text: {
-                copy: instantUrl,
-                largetype: name
+              copy: instantUrl,
+              largetype: name
             }
-
-            }));
+          }));
         }
 
         next(instants);
