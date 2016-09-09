@@ -1,23 +1,25 @@
 # alfred-myinstants
 
-An [Alfred](https://www.alfredapp.com) workflow to search [Myinstants](http://www.myinstants.com).
+An [Alfred](https://www.alfredapp.com) workflow to search [Myinstants](http://www.myinstants.com) and play sounds.
 
 # Get it
 - Download the [latest release](https://github.com/flipxfx/alfred-myinstants/releases/latest)
-- Releases and release notes are all uploaded to Github on the [releases page](https://github.com/flipxfx/alfred-myinstants/releases)
-- The extension updates via [alfred-workflow](https://github.com/deanishe/alfred-workflow)
 
 # Help
 - `i {{query}}` - search for instants with given query and play them
     - To search for instants containing "mlg", run `i mlg`, choose an instant, then hit `enter` to play it.
-    - You can play custom instants by uploading them to [myinstants.com/new](http://www.myinstants.com/new).
+    - You can play custom instants by uploading them to [Myinstants.com/new](http://www.myinstants.com/new).
 - `ibest` - get best of all time instants and play them
 - `itrending` - get trending instants and play them
-- `irecent` - get recent instants and play them
-- `ifavs` - get list of stored favorites
-    - To add an instant to favorties, choose an instant from the above commands, then hit `cmd+enter`.
-    - To remove an instant from favorties, choose an instant from `ifavs`, then hit `cmd-enter`.
-- `iclear` - clear the instants cache
-    - If you run into any problems with the workflow, clearing the cache may help.
-- `iupdate` - update the workflow
-- `ihelp` - open help
+- `inew` - get new instants and play them
+- `ifavs` - get list your favorites
+    - To add favorties, login to [Myinstants](http://www.myinstants.com) and add your favorite sounds.
+    - By default the favorites are pulled from my favorites soundboard, to get your own favorites you must set the workflow environment variable `favorites` to your username.
+- `iboard {{query}}` - get list user specified favorites
+    - Works the same as `ifavs` except you supply the username in the query so you can see favorites for deifferent boards.
+
+After you've used one of the above commands to get a list of instants you can do any of the following:
+- Enter: plays the selected instant
+- Shift: previews the selected instant page Quick Look (helpful play and sound mulitple times)
+- Command+C: copies the url to the selected instant page (helpful to add favorites)
+- Command+L: shows the selected instant name in large type (not helpful)
