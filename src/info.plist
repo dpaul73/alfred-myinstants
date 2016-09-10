@@ -644,7 +644,7 @@ After you've used one of the above commands to get a list of instants you can do
 		<string>flipxfx</string>
 	</dict>
 	<key>version</key>
-	<string>2.0.0</string>
+	<string>2.1.0</string>
 	<key>webaddress</key>
 	<string>flipxfx.com</string>
 </dict>
