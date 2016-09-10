@@ -12,6 +12,16 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>5B5912FC-ED06-4AE1-95CA-34D61F4C81A8</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -536,6 +546,7 @@ An [Alfred](https://www.alfredapp.com) workflow to search [Myinstants](http://ww
     - By default the favorites are pulled from my favorites soundboard, to get your own favorites you must set the workflow environment variable `favorites` to your username.
 - `iboard {{query}}` - get list user specified favorites
     - Works the same as `ifavs` except you supply the username in the query so you can see favorites for deifferent boards.
+- `irecent` - get 20 most recently played instants
 
 After you've used one of the above commands to get a list of instants you can do any of the following:
 - Enter: plays the selected instant
@@ -550,9 +561,9 @@ After you've used one of the above commands to get a list of instants you can do
 			<key>note</key>
 			<string>get recent instants</string>
 			<key>xpos</key>
-			<integer>550</integer>
+			<integer>300</integer>
 			<key>ypos</key>
-			<integer>770</integer>
+			<integer>930</integer>
 		</dict>
 		<key>5B5912FC-ED06-4AE1-95CA-34D61F4C81A8</key>
 		<dict>

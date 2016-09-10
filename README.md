@@ -17,6 +17,7 @@ An [Alfred](https://www.alfredapp.com) workflow to search [Myinstants](http://ww
     - By default the favorites are pulled from my favorites soundboard, to get your own favorites you must set the workflow environment variable `favorites` to your username.
 - `iboard {{query}}` - get list user specified favorites
     - Works the same as `ifavs` except you supply the username in the query so you can see favorites for deifferent boards.
+- `irecent` - get 20 most recently played instants
 
 After you've used one of the above commands to get a list of instants you can do any of the following:
 - Enter: plays the selected instant
