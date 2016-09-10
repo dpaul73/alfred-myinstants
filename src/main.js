@@ -45,13 +45,20 @@ var BASE_URL = "https://www.myinstants.com";
             autocomplete: autocomplete ? name : "",
             arg: JSON.stringify({
               name: name,
-              url: playUrl
+              playUrl: playUrl,
+              instantUrl: instantUrl
             }),
             valid: true,
             quicklookurl: instantUrl,
             text: {
               copy: instantUrl,
               largetype: name
+            },
+            mods: {
+              cmd: {
+                arg: instantUrl,
+                subtitle: "Open instant in browser"
+              },
             }
           }));
         }
@@ -131,7 +138,7 @@ var BASE_URL = "https://www.myinstants.com";
   // Play instant
   actionHandler.onAction("play", function(query) {
     var arg = JSON.parse(query);
-    exec("curl -s " + JSON.parse(query).url + " > /tmp/alfred_myinstants.mp3 && afplay /tmp/alfred_myinstants.mp3");
+    exec("curl -s " + JSON.parse(query).playUrl + " > /tmp/alfred_myinstants.mp3 && afplay /tmp/alfred_myinstants.mp3");
   });
 
   AlfredNode.run();

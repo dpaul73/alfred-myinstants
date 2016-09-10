@@ -12,6 +12,16 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>5B5912FC-ED06-4AE1-95CA-34D61F4C81A8</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -25,6 +35,16 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>5B5912FC-ED06-4AE1-95CA-34D61F4C81A8</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -34,8 +54,20 @@
 				<false/>
 			</dict>
 		</array>
+		<key>CF927719-B545-4189-8635-2810D2F94BC2</key>
+		<array/>
 		<key>D02274EB-FEAA-4C63-916E-D63D5AE575A9</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5B5912FC-ED06-4AE1-95CA-34D61F4C81A8</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
@@ -51,6 +83,16 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>5B5912FC-ED06-4AE1-95CA-34D61F4C81A8</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -64,6 +106,16 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>5B5912FC-ED06-4AE1-95CA-34D61F4C81A8</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -75,6 +127,16 @@
 		</array>
 		<key>F7CD1F44-94C4-4A4A-AAB2-B01D82D056F9</key>
 		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5B5912FC-ED06-4AE1-95CA-34D61F4C81A8</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
@@ -182,6 +244,25 @@
 			<string>D02274EB-FEAA-4C63-916E-D63D5AE575A9</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>5B5912FC-ED06-4AE1-95CA-34D61F4C81A8</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -407,10 +488,19 @@ After you've used one of the above commands to get a list of instants you can do
 - Command+L: shows the selected instant name in large type (not helpful)</string>
 	<key>uidata</key>
 	<dict>
+		<key>5B5912FC-ED06-4AE1-95CA-34D61F4C81A8</key>
+		<dict>
+			<key>note</key>
+			<string>open instant in browser</string>
+			<key>xpos</key>
+			<integer>650</integer>
+			<key>ypos</key>
+			<integer>320</integer>
+		</dict>
 		<key>61580772-FB64-4DB2-9799-323221002164</key>
 		<dict>
 			<key>note</key>
-			<string>search instants</string>
+			<string>get favorite instants</string>
 			<key>xpos</key>
 			<integer>300</integer>
 			<key>ypos</key>
@@ -430,14 +520,14 @@ After you've used one of the above commands to get a list of instants you can do
 			<key>note</key>
 			<string>play instant</string>
 			<key>xpos</key>
-			<integer>550</integer>
+			<integer>650</integer>
 			<key>ypos</key>
-			<integer>470</integer>
+			<integer>480</integer>
 		</dict>
 		<key>D02274EB-FEAA-4C63-916E-D63D5AE575A9</key>
 		<dict>
 			<key>note</key>
-			<string>search instants</string>
+			<string>get best instants</string>
 			<key>xpos</key>
 			<integer>300</integer>
 			<key>ypos</key>
@@ -446,7 +536,7 @@ After you've used one of the above commands to get a list of instants you can do
 		<key>E93B4746-738D-40DB-9897-4A5B7B43AFC7</key>
 		<dict>
 			<key>note</key>
-			<string>search instants</string>
+			<string>get new instants</string>
 			<key>xpos</key>
 			<integer>300</integer>
 			<key>ypos</key>
@@ -455,7 +545,7 @@ After you've used one of the above commands to get a list of instants you can do
 		<key>EC4AD15F-8CBD-4EEB-A3B1-AB109FE18CC2</key>
 		<dict>
 			<key>note</key>
-			<string>search instants</string>
+			<string>get favroite instants from searched board</string>
 			<key>xpos</key>
 			<integer>300</integer>
 			<key>ypos</key>
@@ -464,7 +554,7 @@ After you've used one of the above commands to get a list of instants you can do
 		<key>F7CD1F44-94C4-4A4A-AAB2-B01D82D056F9</key>
 		<dict>
 			<key>note</key>
-			<string>search instants</string>
+			<string>get trending instants</string>
 			<key>xpos</key>
 			<integer>300</integer>
 			<key>ypos</key>
