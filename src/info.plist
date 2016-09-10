@@ -8,6 +8,19 @@
 	<string>Internet</string>
 	<key>connections</key>
 	<dict>
+		<key>14DA3699-ED49-45E1-80BE-C4CF6EBAF986</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>61580772-FB64-4DB2-9799-323221002164</key>
 		<array>
 			<dict>
@@ -459,6 +472,49 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>irecent</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>Loading instants</string>
+				<key>script</key>
+				<string>/usr/local/bin/node main.js "recent"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Recently played instants</string>
+				<key>title</key>
+				<string>Myinstants Recent</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>14DA3699-ED49-45E1-80BE-C4CF6EBAF986</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string># alfred-myinstants
@@ -483,11 +539,21 @@ An [Alfred](https://www.alfredapp.com) workflow to search [Myinstants](http://ww
 
 After you've used one of the above commands to get a list of instants you can do any of the following:
 - Enter: plays the selected instant
-- Shift: previews the selected instant page Quick Look (helpful play and sound mulitple times)
-- Command+C: copies the url to the selected instant page (helpful to add favorites)
-- Command+L: shows the selected instant name in large type (not helpful)</string>
+- Command+Enter: opens the selected instant page in browser (helpful to add to favorites, download, share and play sounds multiple times)
+- Shift: previews the selected instant page Quick Look
+- Command+C: copies the url to the selected instant page
+- Command+L: shows the selected instant name in large type</string>
 	<key>uidata</key>
 	<dict>
+		<key>14DA3699-ED49-45E1-80BE-C4CF6EBAF986</key>
+		<dict>
+			<key>note</key>
+			<string>get recent instants</string>
+			<key>xpos</key>
+			<integer>550</integer>
+			<key>ypos</key>
+			<integer>770</integer>
+		</dict>
 		<key>5B5912FC-ED06-4AE1-95CA-34D61F4C81A8</key>
 		<dict>
 			<key>note</key>

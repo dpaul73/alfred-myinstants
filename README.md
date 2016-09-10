@@ -20,6 +20,7 @@ An [Alfred](https://www.alfredapp.com) workflow to search [Myinstants](http://ww
 
 After you've used one of the above commands to get a list of instants you can do any of the following:
 - Enter: plays the selected instant
-- Shift: previews the selected instant page Quick Look (helpful play and sound mulitple times)
-- Command+C: copies the url to the selected instant page (helpful to add favorites)
-- Command+L: shows the selected instant name in large type (not helpful)
+- Command+Enter: opens the selected instant page in browser (helpful to add to favorites, download, share and play sounds multiple times)
+- Shift: previews the selected instant page Quick Look
+- Command+C: copies the url to the selected instant page
+- Command+L: shows the selected instant name in large type
