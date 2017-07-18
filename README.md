@@ -10,8 +10,6 @@ An [Alfred](https://www.alfredapp.com) workflow to search [Myinstants](http://ww
     - To search for instants containing "mlg", run `i mlg`, choose an instant, then hit `enter` to play it.
     - You can play custom instants by uploading them to [Myinstants.com/new](http://www.myinstants.com/new).
 - `ibest` - get best of all time instants and play them
-- `itrending` - get trending instants and play them
-- `inew` - get new instants and play them
 - `ifavs` - get list your favorites
     - To add favorties, login to [Myinstants](http://www.myinstants.com) and add your favorite sounds.
     - By default the favorites are pulled from my favorites soundboard, to get your own favorites you must set the workflow environment variable `favorites` to your username.
@@ -20,8 +18,8 @@ An [Alfred](https://www.alfredapp.com) workflow to search [Myinstants](http://ww
 - `irecent` - get 20 most recently played instants
 
 After you've used one of the above commands to get a list of instants you can do any of the following:
-- Enter: plays the selected instant
-- Command+Enter: opens the selected instant page in browser (helpful to add to favorites, download, share and play sounds multiple times)
+- Enter/Click: plays the selected instant
+- Command+Enter: opens the selected instant page in browser (helpful to add to favorites, download, share)
 - Shift: previews the selected instant page Quick Look
 - Command+C: copies the url to the selected instant page
 - Command+L: shows the selected instant name in large type

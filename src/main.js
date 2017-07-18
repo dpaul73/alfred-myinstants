@@ -116,16 +116,6 @@ var BASE_URL = "https://www.myinstants.com";
     parseInstants(BASE_URL, false);
   });
 
-  // Trending instants
-  actionHandler.onAction("trending", function() {
-    parseInstants(BASE_URL + "/trending", false);
-  });
-
-  // New instants
-  actionHandler.onAction("new", function() {
-    parseInstants(BASE_URL + "/recent", false);
-  });
-
   // Favorite instants
   actionHandler.onAction("favorites", function() {
     parseInstants(BASE_URL + "/profile/" + utils.envVars.get("favorites"), false);

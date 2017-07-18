@@ -2,6 +2,8 @@
   "name": "alfred-myinstants",
   "main": "main.js",
   "description": "Alfred workflow to search Myinstants.com and play sounds",
+  "repository": "flipxfx/alfred-myinstants",
+  "license": "WTFPL",
   "dependencies": {
     "alfred-workflow-nodejs": "^2.0.0",
     "htmlparser": "^1.7.7"

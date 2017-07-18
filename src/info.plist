@@ -28,7 +28,7 @@
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 		<key>61580772-FB64-4DB2-9799-323221002164</key>
@@ -51,7 +51,7 @@
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 		<key>B06EFA00-BD47-48B9-BF13-A73052018A79</key>
@@ -74,7 +74,7 @@
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 		<key>CF927719-B545-4189-8635-2810D2F94BC2</key>
@@ -99,30 +99,7 @@
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>E93B4746-738D-40DB-9897-4A5B7B43AFC7</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>5B5912FC-ED06-4AE1-95CA-34D61F4C81A8</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 		<key>EC4AD15F-8CBD-4EEB-A3B1-AB109FE18CC2</key>
@@ -145,30 +122,7 @@
 				<key>modifiersubtext</key>
 				<string></string>
 				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>F7CD1F44-94C4-4A4A-AAB2-B01D82D056F9</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>5B5912FC-ED06-4AE1-95CA-34D61F4C81A8</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
+				<true/>
 			</dict>
 		</array>
 	</dict>
@@ -187,6 +141,8 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -230,6 +186,8 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>escaping</key>
@@ -292,115 +250,8 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>keyword</key>
-				<string>itrending</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
+				<key>argumenttrimmode</key>
 				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>2</integer>
-				<key>runningsubtext</key>
-				<string>Loading instants</string>
-				<key>script</key>
-				<string>/usr/local/bin/node main.js "trending"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string>Trending instants</string>
-				<key>title</key>
-				<string>Myinstants Trending</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>F7CD1F44-94C4-4A4A-AAB2-B01D82D056F9</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>keyword</key>
-				<string>inew</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>2</integer>
-				<key>runningsubtext</key>
-				<string>Loading instants</string>
-				<key>script</key>
-				<string>/usr/local/bin/node main.js "new"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>subtext</key>
-				<string>New instants</string>
-				<key>title</key>
-				<string>Myinstants New</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>E93B4746-738D-40DB-9897-4A5B7B43AFC7</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<true/>
-				<key>escaping</key>
-				<integer>4</integer>
-				<key>script</key>
-				<string>/usr/local/bin/node main.js "play" "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>escaping</key>
@@ -442,8 +293,33 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<true/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/local/bin/node main.js "play" "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CF927719-B545-4189-8635-2810D2F94BC2</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -487,6 +363,8 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>escaping</key>
@@ -539,17 +417,15 @@ An [Alfred](https://www.alfredapp.com) workflow to search [Myinstants](http://ww
     - To search for instants containing "mlg", run `i mlg`, choose an instant, then hit `enter` to play it.
     - You can play custom instants by uploading them to [Myinstants.com/new](http://www.myinstants.com/new).
 - `ibest` - get best of all time instants and play them
-- `itrending` - get trending instants and play them
-- `inew` - get new instants and play them
 - `ifavs` - get list your favorites
     - To add favorties, login to [Myinstants](http://www.myinstants.com) and add your favorite sounds.
     - By default the favorites are pulled from my favorites soundboard, to get your own favorites you must set the workflow environment variable `favorites` to your username.
 - `iboard {{query}}` - get list user specified favorites
-    - Works the same as `ifavs` except you supply the username in the query so you can see favorites for deifferent boards.
+    - Works the same as `ifavs` except you supply the username in the query so you can see favorites for different boards.
 - `irecent` - get 20 most recently played instants
 
 After you've used one of the above commands to get a list of instants you can do any of the following:
-- Enter: plays the selected instant
+- Enter/Click: plays the selected instant
 - Command+Enter: opens the selected instant page in browser (helpful to add to favorites, download, share and play sounds multiple times)
 - Shift: previews the selected instant page Quick Look
 - Command+C: copies the url to the selected instant page
@@ -563,7 +439,7 @@ After you've used one of the above commands to get a list of instants you can do
 			<key>xpos</key>
 			<integer>300</integer>
 			<key>ypos</key>
-			<integer>930</integer>
+			<integer>630</integer>
 		</dict>
 		<key>5B5912FC-ED06-4AE1-95CA-34D61F4C81A8</key>
 		<dict>
@@ -572,7 +448,7 @@ After you've used one of the above commands to get a list of instants you can do
 			<key>xpos</key>
 			<integer>650</integer>
 			<key>ypos</key>
-			<integer>320</integer>
+			<integer>250</integer>
 		</dict>
 		<key>61580772-FB64-4DB2-9799-323221002164</key>
 		<dict>
@@ -581,7 +457,7 @@ After you've used one of the above commands to get a list of instants you can do
 			<key>xpos</key>
 			<integer>300</integer>
 			<key>ypos</key>
-			<integer>620</integer>
+			<integer>320</integer>
 		</dict>
 		<key>B06EFA00-BD47-48B9-BF13-A73052018A79</key>
 		<dict>
@@ -599,7 +475,7 @@ After you've used one of the above commands to get a list of instants you can do
 			<key>xpos</key>
 			<integer>650</integer>
 			<key>ypos</key>
-			<integer>480</integer>
+			<integer>400</integer>
 		</dict>
 		<key>D02274EB-FEAA-4C63-916E-D63D5AE575A9</key>
 		<dict>
@@ -610,15 +486,6 @@ After you've used one of the above commands to get a list of instants you can do
 			<key>ypos</key>
 			<integer>170</integer>
 		</dict>
-		<key>E93B4746-738D-40DB-9897-4A5B7B43AFC7</key>
-		<dict>
-			<key>note</key>
-			<string>get new instants</string>
-			<key>xpos</key>
-			<integer>300</integer>
-			<key>ypos</key>
-			<integer>470</integer>
-		</dict>
 		<key>EC4AD15F-8CBD-4EEB-A3B1-AB109FE18CC2</key>
 		<dict>
 			<key>note</key>
@@ -626,16 +493,7 @@ After you've used one of the above commands to get a list of instants you can do
 			<key>xpos</key>
 			<integer>300</integer>
 			<key>ypos</key>
-			<integer>770</integer>
-		</dict>
-		<key>F7CD1F44-94C4-4A4A-AAB2-B01D82D056F9</key>
-		<dict>
-			<key>note</key>
-			<string>get trending instants</string>
-			<key>xpos</key>
-			<integer>300</integer>
-			<key>ypos</key>
-			<integer>320</integer>
+			<integer>470</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
@@ -644,7 +502,7 @@ After you've used one of the above commands to get a list of instants you can do
 		<string>flipxfx</string>
 	</dict>
 	<key>version</key>
-	<string>2.1.0</string>
+	<string>2.2.0</string>
 	<key>webaddress</key>
 	<string>flipxfx.com</string>
 </dict>
